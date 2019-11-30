@@ -1,0 +1,12 @@
+body {
+    background-color: #2C2F33;
+    color: white;
+}
+
+#height450 {
+    padding-bottom: 400px;
+}
+
+#height250 {
+    padding-bottom: 270px;
+}
