@@ -13,16 +13,16 @@ class DashBoardController extends Controller
 
         /* EVERYTHING ABOUT APIS */
         $client = new Client();
-        $res = $client->request('POST', 'https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyBDZXSOQThl5bVvvTghv2uo2iLcUJFSve8', ['location']);
+        $res = $client->request('POST', 'https://www.googleapis.com/geolocation/v1/geolocate?key=<API_KEY>', ['location']);
         $GoogleLocalizationApi = json_decode($res->getBody(), true);
         $Latitude = $GoogleLocalizationApi["location"]["lat"];
         $Longitude = $GoogleLocalizationApi["location"]["lng"];
         $Accuracy = $GoogleLocalizationApi["accuracy"];
-        $GoogleApi = json_decode(file_get_contents('https://maps.googleapis.com/maps/api/elevation/json?locations=' . $Latitude . ',' . $Longitude . '&key=AIzaSyBDZXSOQThl5bVvvTghv2uo2iLcUJFSve8'), true);
-        $WeatherApi = json_decode(file_get_contents('http://api.openweathermap.org/data/2.5/weather?lat=' . $Latitude . '&lon=' . $Longitude . '&units=metric&appid=415e98b29c83c05e95f993f2eb58df27'), true);
-        $WeatherApiHourly = json_decode(file_get_contents('https://api.openweathermap.org/data/2.5/forecast?lat=' . $Latitude . '&lon=' . $Longitude . '&appid=415e98b29c83c05e95f993f2eb58df27&units=metric'), true);
-        $Data = json_decode(file_get_contents('https://api.ipdata.co/?api-key=c2d1544540f219cc68dbfcfce1eadd6779d8187478c257b52179e931'), true);
-        $CityData = json_decode(file_get_contents('https://ipinfo.io/?token=e0b00bfba21a07'), true);
+        $GoogleApi = json_decode(file_get_contents('https://maps.googleapis.com/maps/api/elevation/json?locations=' . $Latitude . ',' . $Longitude . '&key=<API_KEY>''), true);
+        $WeatherApi = json_decode(file_get_contents('http://api.openweathermap.org/data/2.5/weather?lat=' . $Latitude . '&lon=' . $Longitude . '&units=metric&appid=<API_KEY>'), true);
+        $WeatherApiHourly = json_decode(file_get_contents('https://api.openweathermap.org/data/2.5/forecast?lat=' . $Latitude . '&lon=' . $Longitude . '&appid=<API_KEY>&units=metric'), true);
+        $Data = json_decode(file_get_contents('https://api.ipdata.co/?api-key=<API_KEY>'), true);
+        $CityData = json_decode(file_get_contents('https://ipinfo.io/?token=<API_KEY>'), true);
         $Moon = new \Solaris\MoonPhase();
 
         /* Thing For First Row ... DATE AND TIME*/
