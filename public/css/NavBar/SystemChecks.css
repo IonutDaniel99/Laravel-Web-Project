@@ -1,0 +1,33 @@
+.SystemChecks {
+    color: #75757582;
+    position: relative;
+    height: 12px;
+    top: 2px;
+    font-size: 33px;
+}
+
+.SecurityHover:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.defa-context-panel-security {
+    position: absolute;
+    min-width: 325px;
+    min-height: 800px;
+    background-color: #343a40 !important;
+    border: solid 1px #f2f2f2;
+    border-radius: 10px;
+    padding: 5px;
+    z-index: 9999;
+    color: white;
+}
+
+.ShutDownButton {
+    color: white;
+    position: relative;
+    height: 12px;
+    top: 2px;
+    font-size: 33px;
+    cursor: pointer;
+}

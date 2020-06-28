@@ -1,0 +1,91 @@
+#GoogleButton {
+    background-image: url(/dashboardicons/google.svg);
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    border: none;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin: -1px 1px 0px 5px;
+}
+
+#MapsButton {
+    background-image: url(/dashboardicons/maps.svg);
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    border: none;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin: -1px 2px 0px 5px;
+}
+
+#WikiButton {
+    background-image: url(/dashboardicons/Wikipedia.svg);
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    border: none;
+    cursor: pointer;
+    width: 21px;
+    height: 20px;
+    vertical-align: middle;
+    margin: -1px 3px 0px 5px;
+}
+
+
+#MoovitButton {
+    background-image: url(/dashboardicons/moovit.png);
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    border: none;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin: -1px 2px 0px 5px;
+}
+
+#TripAdvisorButton {
+    background-image: url(/dashboardicons/tripadvisor.svg);
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    border: none;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin: -1px 2px 0px 5px;
+}
+
+#AirBnbButton {
+    background-image: url(/dashboardicons/Airbnb.svg);
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    border: none;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin: -1px 2px 0px 5px;
+}
+
+
+
+#FontSizeCity {
+    font-size: 0.7rem;
+    margin-bottom: -3px;
+}

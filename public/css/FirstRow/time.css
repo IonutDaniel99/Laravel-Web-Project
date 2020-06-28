@@ -1,0 +1,113 @@
+#PmAm {
+    font-size: 10px;
+    position: absolute;
+    right: 20px;
+}
+
+#GTM {
+    font-size: 10px;
+    position: absolute;
+    top: 10px;
+    right: 4px;
+}
+
+#Sunrise {
+    font-size: 9.5px;
+    height: 10px;
+
+}
+
+#Sunset {
+    font-size: 9.5px;
+    height: 10px;
+}
+
+#DateDay {
+    position: absolute;
+    font-size: 14px;
+    top: -2px;
+}
+
+#DateInfo {
+    position: absolute;
+    font-size: 10px;
+    top: 15px;
+}
+
+#DaysThisMonth {
+    position: absolute;
+    font-size: 10px;
+    top: -2px;
+    right: 4px;
+}
+
+#DaysUntilNext {
+    position: absolute;
+    font-size: 10px;
+    top: 7px;
+    right: 4px
+}
+
+#NextMonth {
+    position: absolute;
+    font-size: 10px;
+    top: 16px;
+    right: 4px;
+}
+
+
+#EventName {
+    position: absolute;
+    font-size: 13px;
+    top: -4px;
+}
+
+#EventLocation {
+    position: absolute;
+    font-size: 9px;
+    top: 13px;
+}
+
+#StartEDay {
+    position: absolute;
+    font-size: 10px;
+    top: 0px;
+    right: 3px;
+}
+
+
+#TicketPrice {
+    position: absolute;
+    font-size: 10px;
+    top: 10px;
+    right: 3px;
+}
+
+#SeasonsIcons {
+    position: absolute;
+    font-size: 10px;
+    display: table;
+    top: 0px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#SeasonsIcons * {
+    font-size: 15px;
+    margin: 0px 11px 0px 15px;
+}
+
+#Seasons {
+    position: absolute;
+    font-size: 10px;
+    display: table;
+    width: 100%;
+    top: 15px;
+}
+
+
+#MoreInfoDateTime {
+    font-size: 11px;
+    text-decoration: none;
+    color: white;
+}
