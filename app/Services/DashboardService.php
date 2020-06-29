@@ -11,11 +11,11 @@ use DeviceDetector\Parser\Device\DeviceParserAbstract;
 class DashboardService
 {
     protected $Latitude, $Longitude, $Accuracy, $GoogleApi, $WeatherApi, $WeatherApiHourly, $Data, $CityData, $GoogleNews;
-    protected $GoogleMapsApis = 'AIzaSyBDZXSOQThl5bVvvTghv2uo2iLcUJFSve8';
-    protected $OpenWeatherMap = 'c5c77630c832540a6691a564300fa4d4';
-    protected $IpDataCo = 'c2d1544540f219cc68dbfcfce1eadd6779d8187478c257b52179e931';
-    protected $NewsApi = '2334c88bcf65427c8739252543fdea8f';
-    protected $IpInfoIO = 'e0b00bfba21a07';
+    protected $GoogleMapsApis = '<39 characters api key>'; //https://maps.googleapis.com/
+    protected $OpenWeatherMap = '<32 characters api key>'; //http://api.openweathermap.org
+    protected $IpDataCo = '<56 characters api key>'; //https://api.ipdata.co
+    protected $NewsApi = '<30 characters api key>'; //https://newsapi.org/
+    protected $IpInfoIO = '<14 characters api key>'; // https://ipinfo.io/
     public function __construct()
     {
         $client = new Client();
